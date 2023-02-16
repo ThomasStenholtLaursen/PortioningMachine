@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortioningMachine.Application", "PortioningMachine.Application\PortioningMachine.Application.csproj", "{56709736-F19F-4FFF-9C04-2A12F5DA3152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortioningMachine.Library", "PortioningMachine.Library\PortioningMachine.Library.csproj", "{416EE7AA-9D1C-4C51-819F-1CFBC3D7FAC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56709736-F19F-4FFF-9C04-2A12F5DA3152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56709736-F19F-4FFF-9C04-2A12F5DA3152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56709736-F19F-4FFF-9C04-2A12F5DA3152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56709736-F19F-4FFF-9C04-2A12F5DA3152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416EE7AA-9D1C-4C51-819F-1CFBC3D7FAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416EE7AA-9D1C-4C51-819F-1CFBC3D7FAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416EE7AA-9D1C-4C51-819F-1CFBC3D7FAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416EE7AA-9D1C-4C51-819F-1CFBC3D7FAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D986180-EDF6-4607-A47F-264CC5A79434}
+	EndGlobalSection
+EndGlobal
