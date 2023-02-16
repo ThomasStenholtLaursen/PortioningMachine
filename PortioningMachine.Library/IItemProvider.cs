@@ -1,6 +1,4 @@
-﻿using PortioningMachine.SystemComponents;
-
-namespace PortioningMachine.ItemProviders
+﻿namespace PortioningMachine.Library
 {
     public delegate void ItemArrivedHandler(object o, IItem item);
 

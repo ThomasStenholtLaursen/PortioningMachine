@@ -1,7 +1,4 @@
-﻿using System.Threading;
-using PortioningMachine.SystemComponents;
-
-namespace PortioningMachine.ItemProviders
+﻿namespace PortioningMachine.Library
 {
     public class ItemProvider : IItemProvider
     {

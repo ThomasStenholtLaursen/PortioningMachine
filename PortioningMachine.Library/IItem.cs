@@ -1,4 +1,4 @@
-﻿namespace PortioningMachine.SystemComponents
+﻿namespace PortioningMachine.Library
 {
     public interface IItem
     {

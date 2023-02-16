@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PortioningMachine.ItemProviders
+﻿namespace PortioningMachine.Library
 {
     // Adapted from http://stackoverflow.com/questions/1303368/how-to-generate-normally-distributed-random-from-an-integer-range
     public interface IDistribution
@@ -14,7 +12,7 @@ namespace PortioningMachine.ItemProviders
         private readonly Random _random = new Random(new DateTime().Millisecond);
         private readonly double _standardDeviation;
         private double _nextGaussian;
-        private bool _uselast = true;
+        private bool _useLast = true;
 
         public GaussianDistribution(double mean, double standardDeviation)
         {
@@ -29,9 +27,9 @@ namespace PortioningMachine.ItemProviders
 
         private double BoxMuller()
         {
-            if (_uselast)
+            if (_useLast)
             {
-                _uselast = false;
+                _useLast = false;
                 return _nextGaussian;
             }
             double v1, v2, s;
@@ -45,7 +43,7 @@ namespace PortioningMachine.ItemProviders
             s = Math.Sqrt((-2.0*Math.Log(s))/s);
 
             _nextGaussian = v2*s;
-            _uselast = true;
+            _useLast = true;
             return v1*s;
         }
 
